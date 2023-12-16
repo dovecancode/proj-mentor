@@ -4,7 +4,8 @@
 
 ### Roadmap
 
-|  #  | Project                                                                                           | Live Demo                                                  | Front End Mentor                                                                                                                                           |
-| :-: | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 01  | [qr-code](https://github.com/dovecancode/proj-mentor/tree/main/qr-code)                           | [Live Demo](https://dove-qr-code-mentor.netlify.app/)      | [Solution](https://www.frontendmentor.io/solutions/beginner-qr-code-coded-q40DRDIpvH?fbclid=IwAR3tkLCzr6eAikI2iA4Pr_lsf-BflyY3_JMC_ADiEVD4EilIL7eIg1KtTHk) |
-| 02  | [3-column-preview-card](https://github.com/dovecancode/proj-mentor/tree/main/column-preview-card) | [Live Demo](https://dove-column-preview-card.netlify.app/) | [Solution](https://www.frontendmentor.io/solutions/awesome-responsive-3columnpreviewcard-5OSvb2Ac79)                                                       |
+|  #  | Project                                                                                           | Live Demo                                                  | Front End Mentor                   |
+| :-: | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------- |
+| 01  | [qr-code](https://github.com/dovecancode/proj-mentor/tree/main/qr-code)                           | [Live Demo](https://dove-qr-code-mentor.netlify.app/)      | [Solution](http://bit.ly/3v2uw4w)  |
+| 02  | [3-column-preview-card](https://github.com/dovecancode/proj-mentor/tree/main/column-preview-card) | [Live Demo](https://dove-column-preview-card.netlify.app/) | [Solution](https://bit.ly/3tjNH9q) |
+| 02  | [single-price-grid](https://github.com/dovecancode/proj-mentor/tree/main/single-price-grid)       | [Live Demo](https://dove-single-price-grid.netlify.app/)   | [Solution](https://bit.ly/3tmjPJz) |
