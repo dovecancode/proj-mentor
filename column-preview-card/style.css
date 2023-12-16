@@ -1,0 +1,125 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+  --bs-display-font: 'Big Shoulders Display', sans-serif;
+  --lexend-deca-font: 'Lexend Deca', sans-serif;
+  --wght-400: 400;
+  --wght-700: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--transparent-white);
+  font-family: var(--lexend-deca-font);
+  line-height: 1.5;
+  font-weight: var(--wght-400);
+  background: var(--transparent-white);
+}
+
+h1 {
+  font-family: var(--bs-display-font);
+  color: var(--very-light-gray);
+  text-transform: uppercase;
+}
+
+.wrapper {
+  min-height: 94vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.cars {
+  width: 88rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.sedan {
+  background: var(--bright-orange);
+}
+.suvs {
+  background: var(--dark-cyan);
+}
+
+.luxury {
+  background: var(--very-dark-cyan);
+}
+
+.car {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.car img {
+  margin-bottom: 3rem;
+}
+
+.car h1 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.car p {
+  font-size: 1.6rem;
+}
+
+.sedan .learn {
+  color: var(--bright-orange);
+}
+
+.suvs .learn {
+  color: var(--dark-cyan);
+}
+.luxury .learn {
+  color: var(--very-dark-cyan);
+}
+
+.car .learn {
+  display: inline-block;
+  text-decoration: none;
+  background: var(--very-light-gray);
+  text-transform: capitalize;
+  padding: 1rem 3rem;
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  border-radius: 3rem;
+  transition: background 0.3s;
+  border: 1px solid var(--transparent-white);
+}
+
+.car .learn:hover {
+  background: transparent;
+  color: var(--transparent-white);
+  border: 1px solid var(--transparent-white);
+}
+
+@media (width >= 45em) {
+  .cars {
+    display: flex;
+    height: 45rem;
+  }
+
+  .car .learn {
+    margin-top: auto;
+  }
+}
