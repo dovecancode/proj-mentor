@@ -1,0 +1,132 @@
+:root {
+  /* Primary */
+  --very-dark-blue: hsl(233, 47%, 7%);
+  --dark-desaturated-blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%, 0.3);
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --slightly-transparent-p: hsla(0, 0%, 100%, 0.75);
+  --slightly-transparent-stats: hsla(0, 0%, 100%, 0.6);
+  --family-inter: 'Inter', sans-serif;
+  --family-lexend-deca: 'Lexend Deca', sans-serif;
+  --wght-400: 400;
+  --wght-700: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: var(--family-inter);
+  background: var(--very-dark-blue);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  min-height: 100vh;
+  max-width: 120rem;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.stats {
+  margin: 3rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.content {
+  color: var(--white);
+  background: var(--dark-desaturated-blue);
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.content .text {
+  padding: 3rem;
+}
+
+.content h1 {
+  font-size: clamp(3rem, 2.5vw, 7rem);
+  font-weight: var(--wght-700);
+}
+
+.content h1 > span {
+  color: var(--soft-violet);
+}
+
+.content .text > p {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  font-family: var(--family-lexend-deca);
+  color: var(--slightly-transparent-p);
+}
+
+.status {
+  gap: 7rem;
+  margin-top: 6rem;
+}
+
+.status p {
+  color: var() var(--white);
+  font-size: 2.5rem;
+  font-weight: var(--wght-700);
+}
+
+.status small {
+  display: inline-block;
+  color: var(--slightly-transparent-stats);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: var(--slightly-transparent-p);
+  margin-top: 0.5rem;
+}
+
+.featuredImg {
+  position: relative;
+  order: 2;
+}
+
+.overlay {
+  background: var(--soft-violet);
+  /* mix-blend-mode: multiply; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.col {
+  flex: 1;
+}
+@media (width >= 49rem) {
+  .stats {
+    display: flex;
+  }
+
+  .content {
+    padding: 0;
+    text-align: left;
+  }
+
+  .status {
+    display: flex;
+  }
+}
