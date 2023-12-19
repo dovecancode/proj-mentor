@@ -1,0 +1,150 @@
+:root {
+  /* Primary */
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  /* Neutral */
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+
+  --fraunces-font: 'Fraunces', serif;
+  --montserrat-font: 'Montserrat', sans-serif;
+  --wght-400: 400;
+  --wght-500: 500;
+  --wght-700: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--cream);
+  box-sizing: border-box;
+}
+
+body,
+button {
+  font-family: var(--montserrat-font);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.col {
+  flex: 1;
+  width: 35rem;
+  padding: 3rem 4rem;
+}
+
+.card__img {
+  background: url(img/image-product-mobile.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+}
+
+.card__content {
+  background: var(--white);
+  color: var(--dark-grayish-blue);
+}
+
+.card__content span {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  letter-spacing: 0.3rem;
+}
+
+.card__content > h1 {
+  color: var(--very-dark-blue);
+  font-size: 3rem;
+  margin-block: 1.4rem;
+  font-weight: var(--wght-700);
+}
+
+.card__content > p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-block: 1.4rem;
+}
+
+.card__content h1,
+.card__price {
+  font-family: var(--fraunces-font);
+}
+.card__price {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.card__price .current {
+  font-size: 3rem;
+  color: var(--dark-cyan);
+}
+
+.card__price .prev {
+  font-size: 1.3rem;
+  font-weight: var(--wght-400);
+  text-decoration: line-through;
+  font-family: var(--montserrat-font);
+}
+
+.btn {
+  border: 0;
+  outline: 0;
+  padding: 2rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  background: var(--dark-cyan);
+  color: var(--white);
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.5s ease;
+}
+
+.btn:hover {
+  background: #1a4031;
+}
+
+@media (width >= 50em) {
+  .card {
+    display: flex;
+  }
+  .card__img {
+    background-image: url(img/image-product-desktop.jpg);
+    height: auto;
+  }
+
+  .col {
+    width: 31rem;
+  }
+}
