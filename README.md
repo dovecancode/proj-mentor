@@ -19,3 +19,4 @@
 |  #  | Project                                                                                           | Live Demo                                                   | Front End Mentor                   |
 | :-: | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------- |
 | 01  | [product-preview-card](https://github.com/dovecancode/proj-mentor/tree/main/product-preview-card) | [Live Demo](https://dove-product-preview-card.netlify.app/) | [Solution](https://bit.ly/41tiWeN) |
+| 02  | [four-card-feature](https://github.com/dovecancode/proj-mentor/tree/main/four-card-feature)       | [Live Demo](https://dove-four-card-feature.netlify.app/)    | [Solution](https://bit.ly/3GXncK1) |
