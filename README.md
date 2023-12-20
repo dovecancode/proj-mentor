@@ -1,4 +1,4 @@
-# Front End Mentor Challenge
+# Front End Mentor Challenge Discord Challenge Roadmap
 
 ## Getting started on Frontend Mentor (beginner)
 
@@ -11,3 +11,11 @@
 | 03  | [single-price-grid](https://github.com/dovecancode/proj-mentor/tree/main/single-price-grid)       | [Live Demo](https://dove-single-price-grid.netlify.app/)   | [Solution](https://bit.ly/3tmjPJz) |
 | 04  | [order-summary](https://github.com/dovecancode/proj-mentor/tree/main/order-summary)               | [Live Demo](https://dove-order-summary.netlify.app/)       | [Solution](https://bit.ly/3v3UtRr) |
 | 05  | [stat-preview-card](https://github.com/dovecancode/proj-mentor/tree/main/stats-preview-card)      | [Live Demo](https://dove-stat-preview-card.netlify.app/)   | [Solution](https://bit.ly/4838xce) |
+
+## Building responsive layouts (beginner)
+
+### Roadmap
+
+|  #  | Project                                                                                           | Live Demo                                                   | Front End Mentor                   |
+| :-: | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------- |
+| 01  | [product-preview-card](https://github.com/dovecancode/proj-mentor/tree/main/product-preview-card) | [Live Demo](https://dove-product-preview-card.netlify.app/) | [Solution](https://bit.ly/41tiWeN) |
